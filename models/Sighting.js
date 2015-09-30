@@ -12,7 +12,7 @@ var sightingSchema = new mongoose.Schema ({
       'critically endangered',
       'endangered',
       'vulnerable',
-      'near threatened',
+      'near threatened', 
       'conservation dependent',
       'least concern'
     ]

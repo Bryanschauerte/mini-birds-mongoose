@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Endpoints
+
 app.post('/sighting', SightingCtrl.create);
 app.get('/sighting', SightingCtrl.read);
 app.put('/sighting/:id', SightingCtrl.update);
